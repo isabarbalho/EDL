@@ -16,11 +16,14 @@
 
 # Classificação
   Fortran é uma linguagem de alto nível, imperativa e compilada. Possui estilo de tipagem forte e estática. É uma das linguagem mais importantes para a Computação Científica.
-  Possui uma ótimo capacidade de escrita, 
+  Possui uma ótima capacidade de escrita, é uma linguagem simples e expressiva. Em termos de legibilidade, em programas pequenos, não é difícil de ler, mas em programas maiores, entender o código pode se tornar uma tarefa complicada.
 
 # Avaliação Comparativa
+  Comparando Fortran com a linguagem C, ambas são expressivas, se analisadas por códigos simples, a leitura é de fácil entendimento e por não possuirem verificação de tipo, não são confiáveis. A linguagem C possui um vasto conjunto de operadores.
+  Fortran é mais utilizado para aplicações científicas e a linguagem C para programação de sistemas.
 
 # Conclusão
+  Apesar de ser uma linguagem antiga de programação, uma das principais razões de sobrevivência está relacionada ao software resistente á modificação. A vantagem de utilizar Fortran está na construção rápida e eficaz e na maior velocidade de execução, entretanto, dentro das desvantagens temos o uso de fórmulas matemáticas complicadas e dificuldade de integração com outras linguagens.
 
 #Bibliografia
 https://web.fe.up.pt/~aarh/pc/PC-capitulo2.pdf
