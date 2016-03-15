@@ -30,3 +30,4 @@ https://web.fe.up.pt/~aarh/pc/PC-capitulo2.pdf
 
 https://pt.wikipedia.org/wiki/Fortran
 
+http://campus.murraystate.edu/academic/faculty/wlyle/415/FORTRAN77.ppt
