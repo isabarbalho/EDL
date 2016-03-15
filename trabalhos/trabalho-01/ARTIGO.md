@@ -18,7 +18,9 @@
 
 ## Classificação
   Fortran é uma linguagem de alto nível, imperativa e compilada. Possui estilo de tipagem forte e estática. É uma das linguagens mais importantes para a Computação Científica.
+  
   O uso extensivo de "goto's" dificulta a legibilidade, mas com o Fortran 77, as estruturas de dados surgiram, melhorando a leitura de forma significativa dos programas. Entretando, a linguagem peca na legibilidade quando permite que identificadores especiais como DO, END, INTEGER e REAL sejam também nomes de variáveis.
+  
   Em relação a redigibilidade ou capacidade de escrita, nas versões mais antigas, podemos citar que Fotran não possui registros para armazenar tipos diferentes de dados. Isso faz com que se tenha a necessidade de criar vários vetores, cada um para armazenar elementos de um determinado tipo. A manipulação desse conjunto de vetores torna-se uma tarefa complexa, diminuindo a redigibilidade do programa. Entretanto, na versão atual, as dificuldades de redigibilidade foram resolvidas.
 
 ## Avaliação Comparativa
