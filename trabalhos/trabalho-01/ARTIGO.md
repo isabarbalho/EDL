@@ -15,11 +15,11 @@
   Fortran 90 foi seguido por um pequeno melhoramento chamado Fortran 95, em 1997. Este possui novas características para a  linguagem e modificações em algumas das ambiguidades do Fortran 90.
 
 # Classificação
-  Fortran é uma linguagem de alto nível, imperativa e compilada. Possui estilo de tipagem forte e estática. É uma das linguagem mais importantes para a Computação Científica.
-  Possui uma ótima capacidade de escrita, é uma linguagem simples e expressiva. Em termos de legibilidade, em programas pequenos, não é difícil de ler, mas em programas maiores, entender o código pode se tornar uma tarefa complicada.
+  Fortran é uma linguagem de alto nível, imperativa e compilada. Possui estilo de tipagem forte e estática. É uma das linguagens mais importantes para a Computação Científica.
+  Possui uma ótima capacidade de escrita, é uma linguagem simples e expressiva. Em termos de legibilidade, em programas pequenos, não é difícil de ler, mas em programas maiores, entender o código pode se tornar uma tarefa difícil.
 
 # Avaliação Comparativa
-  Comparando Fortran com a linguagem C, ambas são expressivas, se analisadas por códigos simples, a leitura é de fácil entendimento e por não possuirem verificação de tipo, não são confiáveis. A linguagem C possui um vasto conjunto de operadores.
+  Comparando Fortran com a linguagem C, ambas são expressivas. Se analisadas por códigos simples, a leitura é de fácil entendimento e por não possuirem verificação de tipo, não são confiáveis. A linguagem C possui um vasto conjunto de operadores.
   Fortran é mais utilizado para aplicações científicas e a linguagem C para programação de sistemas.
 
 # Conclusão
