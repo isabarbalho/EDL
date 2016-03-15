@@ -24,6 +24,13 @@
   Em relação a redigibilidade ou capacidade de escrita, nas versões mais antigas, podemos citar que Fotran não possui registros para armazenar tipos diferentes de dados. Isso faz com que se tenha a necessidade de criar vários vetores, cada um para armazenar elementos de um determinado tipo. A manipulação desse conjunto de vetores torna-se uma tarefa complexa, diminuindo a redigibilidade do programa. Entretanto, na versão atual, as dificuldades de redigibilidade foram resolvidas.
 
 ## Avaliação Comparativa
+  A linguagem C possui símbolos que denotam diferentes comportamentos dependendo do contexto, dificultando a legibilidade do programa (ex: "*" pode indicar ponteiro ou multiplicação).Fortran, não possui um vasto conjunto de operadores como C. 
+  
+  A linguagem C possui diversos recursos que facilitam na escrita, como por exemplo o operador ++ . Entretanto, esses recursos podem conflitar com a legibilidade. Nas versões antigas de Fortran, os recursos eram limitados, dificultando a capacidade de escrita dos códigos, nas versões mais atuais, já existem mais recursos mas comparado com os recursos da linguagem C, a linguagem C possui maior poder de redigibilidade.
+  
+  O operador ++ e operadores ternários ? : são bons exemplos de expressivdade da linguagem C.(ex: cont = cont +1 ;  | cont += 1; | cont++; | ++cont). Quando falamos da linguagem Fortran, a expressividade está exposta principalmente nas funções intrínsecas, que tornam o código mais simples.
+  
+  
   Comparando Fortran com a linguagem C, ambas são expressivas. Se analisadas por códigos simples, a leitura é de fácil entendimento e por não possuirem verificação de tipo, não são confiáveis. A linguagem C possui um vasto conjunto de operadores.
   Fortran é mais utilizado para aplicações científicas e a linguagem C para programação de sistemas.
 
