@@ -9,8 +9,8 @@
   A linguagem FORTRAN original era muito pequena em comparação com as versões modernas. Esta contem apenas um número limitado de declarações.
 
   O desenvolvimento continuou em 1962, com o lançamento do FORTRAN IV. FORTRAN IV tinha muitos melhoramentos e por isso tornou-se a versão mais utilizada nos 15 anos seguintes. Em 1966 o FORTRAN IV foi adoptado como um padrão ANSI e passou a ser conhecido como FORTRAN 66.
-
-  1977 foi um ano importante, a linguagem recebeu uma atualização importante. O FORTRAN 77 incluía muitas novas características, que permitiram escrever e guardar mais facilmente programas estruturados. 
+  
+  Em meados da década de 1970, todo grande computador vinha com a linguagem Fortran embutida e era a linguagem mais robusta da época e tinha um processamento muito eficiente. Além disso o código podia ser compilado (transformado em um programa executável) em qualquer tipo de sistema de computador e portanto se tornou a linguagem mais usada no meio científico. O FORTRAN 77 incluía muitas novas características, que permitiram escrever e guardar mais facilmente programas estruturados. 
   
   Logo em seguida, outro melhoramento importante deu origem ao Fortran 90. Este incluía todo o Fortran 77 como base e com mudanças significativas, mudanças nas operações sobre tabelas (array); na parametrização das funções intrínsecas, permitindo assim utilizar uma sequência de caracteres muito grande, como também usar mais do que dois tipos de precisão para variáveis do tipo Real e Complex; houve um aperfeiçoamento da computação numérica com a inclusão de um conjunto de funções numéricas, e no desenvolvimento de um conjunto de funções e subrotinas que permitem quer aceder com maior facilidade a bibliotecas de programas, quer auxiliar na definição de dados globais; na capacidade de escrever procedimentos internos e recursivos, como também chamar os procedimentos através de argumentos, sendo estes, opcionais ou obrigatórios; na implementação do conceito de apontadores.
   
