@@ -34,6 +34,83 @@
   Comparando Fortran com a linguagem C, ambas são expressivas. Se analisadas por códigos simples, a leitura é de fácil entendimento e por não possuirem verificação de tipo, não são confiáveis. A linguagem C possui um vasto conjunto de operadores.
   Fortran é mais utilizado para aplicações científicas e a linguagem C para programação de sistemas.
 
+## Códigos Representativos
+ A passagem dos parâmetros das funções e sub-rotinas é sempre por referência.
+ 
+ ex: 
+PROGRAM bad_call
+
+IMPLICIT NONE
+
+REAL :: x=1
+
+CALL bad_argument(x)
+
+END PROGRAM
+
+
+SUBROUTINE bad_argument (i)
+
+IMPLICIT NONE
+
+INTEGER ::i = 0
+
+WRITE(*,*),' I= ', i
+
+END SUBROUTINE
+
+
+É uma característica boa para quem está aprendendo a programar. O aluno/pessoa não precisa se preocupar com essa parte que costuma ser difícil de entender para iniciantes.
+
+ Se o parâmetro for um arranjo, então o ponteiro aponta para o 1º valor no array. Porém a sub-rotina precisa saber o local e o tamanho do array para garantir que ele fique dentro do limite do array e da execução das operações.
+
+ex:
+PROGRAM array
+
+IMPLICIT NONE
+
+INTEGER :: i
+
+REAL, DIMENSION (5) :: a =0
+
+CALL sub (a, 5, 6)
+
+DO i = 1,6
+
+WRITE(*,100) i, a(i)
+
+100 FORMAT(1X,'A(',I1,') = ', F6.2)
+
+END DO
+
+END PROGRAM
+
+
+SUBROUTINE sub (a, ndim, n)
+
+IMPLICIT NONE
+
+INTEGER, INTENT(IN) :: ndim
+
+REAL, INTENT(OUT), DIMENSION(ndim) :: a
+
+INTEGER, INTENT(IN) :: n
+
+INTEGER :: i, j = 0
+
+DO i = 1, n
+
+j = j + (2 * i)
+
+a(i) = j
+
+j = j +3
+
+END DO
+
+END SUBROUTINE sub
+
+
 ## Conclusão
   Apesar de ser uma linguagem antiga de programação, uma das principais razões de sobrevivência está relacionada ao software resistente á modificação. A vantagem de utilizar Fortran está na construção rápida e eficaz e na maior velocidade de execução, entretanto, dentro das desvantagens temos o uso de fórmulas matemáticas complicadas e dificuldade de integração com outras linguagens.
 
